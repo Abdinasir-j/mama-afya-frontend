@@ -1,4 +1,4 @@
-# Logs
+git pull origin main --allow-unrelated-histories# Logs
 logs
 *.log
 npm-debug.log*
