@@ -5,27 +5,15 @@
 
 ---
 
-## Table of Contents
 
-- [Overview](#overview)
-
-- [Project Structure](#project-structure)
-- [Design System](#design-system)
-- [Getting Started](#getting-started)
-- [Branch Strategy](#branch-strategy)
-- [Pushing to GitHub](#pushing-to-github)
-- [Available Scripts](#available-scripts)
-- [Roadmap](#roadmap)
-
----
 
 ## Overview
 
 **MamaAfya** is a maternal health platform designed for Community Health Workers (CHWs) operating in Kenya. This repository contains the **CHW Triage Dashboard** — the professional-facing interface where health workers review and prioritize patient alerts sourced from AI Chatbot escalations, SMS survey responses, and automated system logs.
 
-The UI is intentionally non-clinical: warm earth tones, high-contrast typography, and generous touch targets ensure the dashboard is usable in bright outdoor settings and low-light clinics alike.
 
-### Key Features
+
+### Team assignment
 
 CHW Triage Dashboard---Done by Abdinasir.
 Mama Afya Dashboard ---planned--by Maryaane.
