@@ -14,11 +14,11 @@
 --- 
 ## Team assignment
 
-CHW Triage Dashboard---Done by Abdinasir.
+CHW Triage Dashboard---Done by Abdinasir Jibril.
 Mama Afya Dashboard ---planned--by Maryaane.
 MamaBot Chat & System Reporting--planned.
 Pregnancy Nutration--- planned.
-Mama Afya Home Dashboard---planned
+Mama Afya Home Dashboard----planned
 
 
 ## Project Structure
@@ -56,4 +56,4 @@ mamaafya/
 ### License
 
 Educational and portfolio purposes.
-Design system copyright 2024 MamaAfya / NurtureHome.
+Design system copyright 2026 MamaAfya / NurtureHome.
