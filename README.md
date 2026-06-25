@@ -17,8 +17,8 @@
 CHW Triage Dashboard---Done by Abdinasir.
 Mama Afya Dashboard ---planned--by Maryaane.
 MamaBot Chat & System Reporting--planned.
-Pregnancy Nutration-- planned.
-Mama Afya Home Dashboard..planned
+Pregnancy Nutration--- planned.
+Mama Afya Home Dashboard---planned
 
 
 ## Project Structure
