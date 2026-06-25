@@ -14,7 +14,7 @@
 --- 
 ## Team assignment
 
-CHW Triage Dashboard---Done by Abdinasir Jibril.
+CHW Triage Dashboard---Done by Abdinasir.
 Mama Afya Dashboard ---planned--by Maryaane.
 MamaBot Chat & System Reporting--planned.
 Pregnancy Nutration-- planned.
