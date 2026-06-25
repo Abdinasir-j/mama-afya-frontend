@@ -1,0 +1,173 @@
+.main {
+  flex: 1;
+  padding: var(--space-margin-mobile);
+  background-color: var(--color-surface-bright);
+}
+
+@media (min-width: 1024px) {
+  .main { padding: var(--space-margin-desktop); }
+}
+
+/* Page header */
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+@media (min-width: 700px) {
+  .pageHeader {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.pageTitle { color: var(--color-on-background); margin-bottom: var(--space-xs); }
+.pageSubtitle { color: var(--color-on-surface-variant); }
+
+.headerActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  align-items: center;
+}
+
+/* Filter chips */
+.filterGroup {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.filterChip {
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--color-outline-variant);
+  color: var(--color-on-surface);
+  background: transparent;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.filterChip:hover { background-color: var(--color-surface-container-low); }
+
+.filterChipActive {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  border-color: var(--color-primary);
+}
+.filterChipActive:hover { background-color: var(--color-surface-tint); border-color: var(--color-surface-tint); }
+
+/* New patient button */
+.btnNewPatient {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 20px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(69, 97, 78, 0.25);
+  transition: background-color 0.15s, transform 0.1s, box-shadow 0.15s;
+}
+
+.btnNewPatient:hover { background-color: var(--color-surface-tint); }
+.btnNewPatient:active { transform: scale(0.96); }
+
+/* List */
+.listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-sm);
+}
+
+.listTitle { color: var(--color-on-surface); }
+.listCount  { color: var(--color-on-surface-variant); }
+
+.patientList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+/* Modal */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+  padding: var(--space-margin-mobile);
+}
+
+.modal {
+  background-color: var(--color-surface-container-lowest);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.14);
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-md);
+}
+
+.modalClose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-full);
+  color: var(--color-on-surface-variant);
+  transition: background-color 0.15s;
+}
+.modalClose:hover { background-color: var(--color-surface-container); }
+
+.modalBody {
+  color: var(--color-on-surface-variant);
+  margin-bottom: var(--space-lg);
+}
+
+.modalFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-sm);
+}
+
+.btnCancel {
+  padding: 10px 20px;
+  border-radius: var(--radius-full);
+  color: var(--color-on-surface-variant);
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.15s;
+}
+.btnCancel:hover { background-color: var(--color-surface-container); }
+
+.btnSave {
+  padding: 10px 20px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  font-family: var(--font-heading);
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color 0.15s;
+}
+.btnSave:hover { background-color: var(--color-surface-tint); }
