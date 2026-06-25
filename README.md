@@ -11,9 +11,8 @@
 
 **MamaAfya** is a maternal health platform designed for Community Health Workers (CHWs) operating in Kenya. This repository contains the **CHW Triage Dashboard** — the professional-facing interface where health workers review and prioritize patient alerts sourced from AI Chatbot escalations, SMS survey responses, and automated system logs.
 
-
-
-### Team assignment
+--- 
+## Team assignment
 
 CHW Triage Dashboard---Done by Abdinasir.
 Mama Afya Dashboard ---planned--by Maryaane.
@@ -51,67 +50,10 @@ mamaafya/
 ├── vite.config.js
 ├── package.json
 └── README.md
-```
 
 
 
-
-
-
-
-### Working on a feature branch
-
-```bash
-# Create and switch to your branch
-git checkout -b feature/triage-dashboard
-
-# Stage your changes
-git add .
-
-# Commit
-git commit -m "feat: add triage dashboard with risk filtering"
-
-# Push the branch
-git push -u origin feature/triage-dashboard
-```
-
-Then open a Pull Request on GitHub:
-- Base: develop
-- Compare: feature/triage-dashboard
-
-### Daily workflow
-
-```bash
-# Always sync before starting work
-git checkout develop
-git pull origin develop
-git checkout feature/your-branch
-git merge develop
-
-# After changes
-git add .
-git commit -m "fix: correct badge colour on high-risk rows"
-git push
-```
-
----
-
-
-
-## Roadmap
-
-- Patient Detail Page with pregnancy timeline component
-- Schedule View with ANC visit calendar
-- Inventory Module for supplies tracking
-- Reports and Analytics with PDF/CSV export
-- Mother Mobile View (patient-facing portal)
-- AI Chatbot Transcript Viewer
-- Offline Support via service worker
-- Authentication with CHW role-based access
-
----
-
-## License
+### License
 
 Educational and portfolio purposes.
 Design system copyright 2024 MamaAfya / NurtureHome.
